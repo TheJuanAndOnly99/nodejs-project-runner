@@ -1,20 +1,29 @@
 {
-  "name": "projectRunner",
+  "name": "nodejs-project-runner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bin": {
-    "runner": "index.js"
-  },
   "dependencies": {
     "caporal": "^1.4.0",
     "chokidar": "^3.4.0",
     "lodash.debounce": "^4.0.8"
-  }
+  },
+  "bin": {
+    "runner": "index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheJuanAndOnly99/nodejs-project-runner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheJuanAndOnly99/nodejs-project-runner/issues"
+  },
+  "homepage": "https://github.com/TheJuanAndOnly99/nodejs-project-runner#readme"
 }
